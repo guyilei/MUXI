@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# C/C++/CUDA/OpenCL build products
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.dSYM/
+
+# Local executables currently produced by the examples
+day9.29/add_blocks
+day9.29/matrix_add_4blocks
+
+# Logs and generated parser output
+*.log
+parsed_rnn/
+parsed_data.json
+shape_definitions.yaml
+rnn_config.yaml
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
